@@ -1,0 +1,21 @@
+@import "src/variables.scss";
+
+.leftNavbar{
+    height: calc(100vh - $navbar-height);
+}
+
+.leftNavbarTabItem{
+    width: 90px;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.leftNavbarTabItem:hover{
+    background-color: $hover-primary;
+    color: white;
+}

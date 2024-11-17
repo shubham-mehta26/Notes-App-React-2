@@ -1,0 +1,18 @@
+@import "src/variables.scss";
+
+.navbar{
+    display: flex;
+    height: $navbar-height;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid $border-primary;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
